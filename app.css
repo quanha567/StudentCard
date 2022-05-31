@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Varela+Round&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'Varela Round', sans-serif;
+}
+
+:root{
+   --primary-color: #2cccff;
+}
+
+.app {
+   display: flex;
+   width: 100%;
+   max-width: 1000px;
+   margin: 50px auto;
+   border: 1px solid var(--primary-color);
+   padding: 50px;
+   border-radius: 30px;
+}
+
+.create {
+   flex-basis: 50%;
+   border-right: 1px solid var(--primary-color);
+}
+
+.row {
+   display: flex;
+   flex-direction: column;
+   padding: 10px 50px;
+}
+
+.row label {
+   margin-bottom: 5px;
+   color: var(--primary-color);
+}
+
+.row input {
+   padding: 10px 20px;
+   outline: none;
+   border: 1px solid var(--primary-color);
+   border-radius: 10px;
+}
+
+.result {
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   border: 1px solid var(--primary-color);
+   border-radius: 10px;
+   width: 322px;
+   height: 208px;
+   overflow: hidden;
+}
+
+.card-head {
+   display: flex;
+   align-items: center;
+   background-color: var(--primary-color);
+   padding: 5px 10px;
+}
+
+.card-head img {
+   display: block;
+   object-fit: cover;
+   width: 40px;
+   height: 40px;
+   border-radius: 100rem;
+}
+
+.card-head h1 {
+   flex: 1;
+   font-size: 13px;
+   text-align: center;
+   font-weight: bold;
+   color: var(--primary-color);
+   color: #fff;
+   letter-spacing: 1px;
+}
+
+.card-body {
+   display: flex;
+   flex: 1;
+   padding: 5px 10px;
+}
+
+.card-body__img {
+   flex-basis: 20%;
+   display: flex;
+   flex-direction: column;
+}
+
+.card-body__img img {
+   display: block;
+   width: 75px;
+   height: 100px;
+   object-fit: cover;
+   margin: auto;
+}
+
+.card-body__img p {
+   font-weight: bold;
+   margin-top: 10px;
+   font-size: 13px;
+}
+
+.card-body__content {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   padding: 0 10px;
+}
+
+.card-body__content h1 {
+   color: #f83922;
+   font-size: 20px;
+   text-align: center;
+}
+
+.card-body__content p {
+   font-weight: 500;
+   font-size: 15px;
+   margin: 2.5px 0;
+   display: flex;
+}
+
+.card-body__content p .title {
+   width: 75px;
+   margin-right: 5px;
+}
+
+.card-body__content img {
+   margin: auto;
+   display: block;
+   width: 198px;
+   height: 25px;
+   object-fit: cover;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tạo thẻ sinh viên</title>
+   <link rel="stylesheet" href="./app.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+   <div class="app">
+      <div class="create">
+         <div class="row">
+            <label>Tên sinh viên</label>
+            <input class="name-input" type="text" placeholder="Nguyễn Văn A">
+         </div>
+         <div class="row">
+            <label>Ngày sinh</label>
+            <input class="birthday-input" type="date">
+         </div>
+         <div class="row">
+            <label>Lớp học</label>
+            <input class="class-name-input" type="text" placeholder="CD20CT01">
+         </div>
+         <div class="row">
+            <label>Năm học</label>
+            <input class="year-input" type="text" placeholder="2020 - 2023">
+         </div>
+         <div class="row">
+            <label>Mã sinh viên</label>
+            <input class="id-input" type="text" placeholder="20010900xx">
+         </div>
+         <div class="row">
+            <label>Hình ảnh</label>
+            <input class="img-input" type="file">
+         </div>
+      </div>
+      <div class="result">
+         <div class="card">
+            <div class="card-head">
+               <img src="./img/logo.png" alt="logo">
+               <h1 class="school-name">TRƯỜNG CAO ĐẲNG CÔNG NGHỆ TP.HỒ CHÍ MINH</h1>
+            </div>
+            <div class="card-body">
+               <div class="card-body__img">
+                  <img class="img-result" src="./img/avt.jpg" alt="">
+                  <p class="id-result">2001090027</p>
+               </div>
+               <div class="card-body__content">
+                  <h1>THẺ SINH VIÊN</h1>
+                  <p><span class="title">Họ và tên: </span><span class="name-result">Nguyễn Văn A</span></p>
+                  <p><span class="title">Ngày sinh: </span><span class="birthday-result">17/5/2002</span></p>
+                  <p><span class="title">Lớp học: </span><span class="class-name-result">CD20CT01</span></p>
+                  <p><span class="title">Khóa học: </span><span class="year-result">2020 - 2023</span></p>
+                  <img src="./img/code.jpg" alt="code-result" class="code">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="./app.js"></script>
+</body>
+</html>
